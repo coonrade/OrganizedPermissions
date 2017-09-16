@@ -13,7 +13,7 @@ import android.support.annotation.Nullable;
 import android.app.AlertDialog;
 
 @TargetApi(Build.VERSION_CODES.M)
-class PermissionsActivity extends Activity {
+public class PermissionsActivity extends Activity {
 
     AlertDialog rationaleDialog, blockedDialog;
 
